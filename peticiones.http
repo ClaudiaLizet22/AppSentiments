@@ -1,0 +1,42 @@
+
+GET https://sentapp-danielgallardo21-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/info
+
+
+###
+
+GET https://app-danielgallardo21-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/healt
+
+###
+
+POST https://app-danielgallardo21-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/predict
+content-type: application/json
+
+{
+    "product_name": "New Product",
+    "product_price": 1000,
+    "Rate": 1,
+    "Review": "everithing is mid",
+    "Summary": "everithing is mid"
+}
+
+###
+
+GET http://localhost:5000/info
+
+
+###
+
+GET http://localhost:5000/healt
+
+###
+
+POST http://localhost:5000/predict
+content-type: application/json
+
+{
+    "product_name": "New Product",
+    "product_price": 1000,
+    "Rate": 1,
+    "Review": "",
+    "Summary": "It is mid"
+}
